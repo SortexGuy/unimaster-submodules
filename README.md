@@ -32,17 +32,24 @@ Arch linux: `sudo pacman -S nodejs npm`
 
 #### Para windows
 
-El instalador de la version estable de NodeJS se encuentra en su pagina web.
+El instalador de la version estable de NodeJS se encuentra en su [pagina web](https://nodejs.org/en).
 
 ---
 
-Una vez instalado lo anterior podemos clonar (o descargar y descomprir) el repositorio,
-dentro de la carpeta del repositorio tenemos que instalar las dependencias utilizando el comando:
+Para clonar este repositorio con todos los submodulos, los cuales incluyen los archivos para el backend y frontend debes de hacer uso de este comando:
+
+`git clone --recurse-submodules https://github.com/SortexGuy/unimaster-submodules`
+
+Una vez clonado, debemos de instalar las dependencias por lo cual deberá de ejecutar este comando dentro de la carpeta backend y frontend:
 
 `npm i`
 
 ### Ejecutando la aplicacion
 
-Para ejecutar todo el proyecto solo necesitamos ingresar el comando:
+Para hacer funcionar la app debemos de ejectuar el backend y el frontend por separado al mismo tiempo, usando el siguiente comando cada uno:
 
 `npm run dev`
+
+Podremos encontrar la aplicación corriendo en la siguiente dirección URL desde nuestro navegador:
+
+`localhost:3000`
