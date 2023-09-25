@@ -1,0 +1,6 @@
+[submodule "frontend-hackaton-unimaster"]
+	path = frontend-hackaton-unimaster
+	url = https://github.com/Gabo-div/frontend-hackaton-unimaster
+[submodule "backend-hackaton-unimaster"]
+	path = backend-hackaton-unimaster
+	url = https://github.com/Gabo-div/backend-hackaton-unimaster
